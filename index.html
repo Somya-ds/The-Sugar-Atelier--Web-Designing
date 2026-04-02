@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Sugar Atelier</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="The Sugar Atelier Logo" class="logo-img">
+        <span>The Sugar Atelier</span>
+      </a>
+
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#products">Products</a></li>
+          <li><a href="#testimonial">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__slider" id="heroSlider">
+      <div class="hero__slide is-active" style="background-image: url(images/bg.png);">
+        <div class="hero__content container">
+          <h1 class="hero__title">Pure Vegetarian Flavors</h1>
+          <p class="hero__subtitle">Simply Tasty, 100% Vegeterian and eggless</p>
+          <a href="#products" class="btn btn--light">Explore Products</a>
+        </div>
+      </div>
+      <div class="hero__slide" style="background-image: url(images/bg1.png);">
+        <div class="hero__content container">
+          <h1 class="hero__title">Freshly Prepared</h1>
+          <p class="hero__subtitle">Made fresh in small quantities to ensure the perfect quality.</p>
+          <a href="#products" class="btn btn--light">Explore Products</a>
+        </div>
+      </div>
+      <div class="hero__slide" style="background-image: url(images/bg2.png);">
+        <div class="hero__content container">
+          <h1 class="hero__title">Authentic Flavors</h1>
+          <p class="hero__subtitle">Taste authenic indian flavors with a premium touch.</p>
+          <a href="#products" class="btn btn--light">Explore Products</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero__dots" id="heroDots"></div>
+  </section>
+
+
+   <!-- PROMOS -->
+  <section class="promos section">
+    <div class="container grid grid--3">
+      <div class="promo card reveal">
+        <img src="" alt="">
+        <div class="promo__body" style="background-color: #c59c5f87; color: #3e3e3e;">
+          <h3>Made per order</h3>
+          <p>Prepared in small batches based on order, to ensure the best quality.</p>
+        </div>
+      </div>
+      <div class="promo card reveal">
+        <img src="" alt="">
+        <div class="promo__body" style="background-color: #86571187; color: rgb(230, 229, 229);">
+          <h3>Premium Ingredients</h3>
+          <p>Taste the difference</p>
+        </div>
+      </div>
+      <div class="promo card reveal">
+        <img src="" alt="">
+        <div class="promo__body" style="background-color: #c59d5f87; color: #3e3e3e;">
+          <h3>Treat box</h3>
+          <p>Confused on what to order? Try a bit of everything</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="ready section" id="products">
+    <div class="container">
+      <header class="section__header reveal">
+        <h2>Our Products</h2>
+        <p>Handcrafted treats, freshly prepared for you.</p>
+      </header>
+
+      <div class="grid grid--3">
+        <article class="product card reveal">
+          <img src="images/p2.jpg" alt="Nankhatais">
+          <div class="product__body">
+            <h3>Nankhatais</h3>
+            <p class="product__price">INR 149 (250g)</p>
+            <p class="product__price">INR 399 (500g)</p>
+          </div>
+        </article>
+
+        <article class="product card reveal">
+          <img src="images/p3.jpg" alt="Biscuit Pudding">
+          <div class="product__body">
+            <h3>Biscuit Pudding</h3>
+            <p class="product__price">INR 200 (250g)</p>
+            <p class="product__price">INR 400 (500g)</p>
+          </div>
+        </article>
+
+        <article class="product card reveal">
+          <img src="images/p1.jpg" alt="Paan Kulfi">
+          <div class="product__body">
+            <h3>Paan Kulfi</h3>
+            <p class="product__price">INR 150/250ml</p>
+            <p class="product__price">INR 399/500ml</p>
+            <p class="product__price">INR 70/80ml</p>
+          </div>
+        </article>
+
+        <article class="product card reveal">
+          <img src="images/p6.jpg" alt="Oats Biscuits">
+          <div class="product__body">
+            <h3>Oats Biscuits (25g Protein) </h3>
+            <p class="product__price">INR 250 (250g)</p>
+            <p class="product__price">INR 499 (500g)</p>
+          </div>
+        </article>
+
+        <article class="product card reveal">
+          <img src="images/p4.jpg" alt="Cupcakes">
+          <div class="product__body">
+            <h3>Cupcakes (Box of 6)</h3>
+            <p class="product__price">INR 350</p>
+          </div>
+        </article>
+
+        <article class="product card reveal">
+          <img src="images/tb.png" alt="Treat Box">
+          <div class="product__body">
+            <h3>Build Your Own Treat Box</h3>
+            <p class="product__price">Price based on contents</p>
+            <p class="product__price">Comes in 250g/500g boxes</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+<!-- TESTIMONIAL -->
+<section class="testimonial section" id="testimonial" style="padding-top: 20px;">
+  <div class="container testimonial__slider reveal">
+    <header class="section__header">
+      <h2>What Our Customers Say</h2>
+      <p>Real feedback from happy customers who’ve tried our sweet treats.</p>
+    </header>
+
+
+    <!-- Slides -->
+    <div class="testimonial__slide is-active">
+      <div class="testimonial__inner">
+        <div class="testimonial__text">
+          <h2>Exceptional Taste</h2>
+          <p>“I had the chance to try most of the items, and they were all fantastic — but the paan kulfi definitely stood out as my favorite!”</p>
+          <span class="testimonial__author">— Mrithul P</span>
+        </div>
+        <div class="testimonial__image">
+          <img src="images/p1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial__slide">
+      <div class="testimonial__inner">
+        <div class="testimonial__text">
+          <h2>Amazing Quality</h2>
+          <p>“The sweets were absolutely delicious and beautifully presented. Highly recommend for any occasion!”</p>
+          <span class="testimonial__author">— Somya G</span>
+        </div>
+        <div class="testimonial__image">
+          <img src="images/p3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial__slide">
+      <div class="testimonial__inner">
+        <div class="testimonial__text">
+          <h2>So Fresh!</h2>
+          <p>“Every bite tasted fresh and rich. These bought back memories of home!”</p>
+          <span class="testimonial__author">— Rishabh Patel</span>
+        </div>
+        <div class="testimonial__image">
+          <img src="images/p2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+   
+  </div>
+</section>
+
+
+
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container contact__inner reveal">
+      <h2>Get in Touch</h2>
+      <p>We’d love to hear from you! Contact us directly through WhatsApp and place your order.</p>
+      <div class="contact__buttons">
+        <a href="https://wa.me/917973704290" target="_blank" class="btn btn--whatsapp">WhatsApp Us</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <h4>The Sugar Atelier</h4>
+        <p>Simply tasty, 100% Vegetarian.</p>
+      </div>
+      <div>
+        <h5>Information</h5>
+        <ul style="font-size: 80%;">
+          <li><a href="#">About us</a></li>
+        </ul>
+        <h5> </h5>
+        <h5>Find us on</h5>
+        <ul class="social-links" style="display: flex;gap: 10px;flex-wrap: wrap;">
+          <li><a href="https://www.instagram.com/thesugaratelier2025/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://facebook.com/thesugaratelier" target="_blank"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="https://github.com/Somya-ds" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+   
+        </ul>
+
+      </div>
+
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li>Email: info@sugaratelier.ke</li>
+          <li>Phone: +91 7973704290</li>
+          <li>Kharar, 140301, Punjab, India</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="year"></span> The Sugar Atelier. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
